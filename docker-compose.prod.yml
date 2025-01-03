@@ -5,8 +5,10 @@ networks:
 services:
   traefik:
     image: traefik:v3
-    container_name: "traefik"
+    container_name: "traefik-v3"
     restart: always
+    environment:
+      - TZ=NewYork/America
     networks:
       - proxy
     ports:
