@@ -1,7 +1,8 @@
+# Not used yet
 api:
   dashboard: true # Optional can be disabled
   insecure: true # Optional can be disabled
-  debug: false # Optional can be Enabled if needed for troubleshooting
+  debug: true # Optional can be Enabled if needed for troubleshooting
 entryPoints:
   web:
     address: ":80"
